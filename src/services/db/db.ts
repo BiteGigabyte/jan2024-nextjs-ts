@@ -1,8 +1,8 @@
 'use server' //top level server directive (всі функції являються серверними)
 
-
 import sql from 'better-sqlite3';
 import {revalidatePath} from "next/cache";
+
 
 let db = sql('meals.db');
 
